@@ -1,0 +1,31 @@
+.background {
+  background-color: #34343E;
+}
+.main {
+  background-color: #fff;
+  border-radius: 0 0 80px 80px;
+  box-shadow: 0 0 2px rgba(52, 52, 62, 0.4),
+              0 2px 20px rgba(52, 52, 62, 0.16);
+  padding: 20px 0 60px;
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .arrow {
+    text-align: end;
+    margin: 0;
+    animation: 3s slide ease infinite;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

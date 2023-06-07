@@ -1,0 +1,29 @@
+.footer {
+  background-color: #34343E;
+  padding: 60px 0 85px;
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  &__btns {
+    gap: 10px;
+    display: flex;
+    .btn {
+      padding: 16px;
+      box-shadow: 0 2px 10px rgba(52, 52, 62, 0.24);
+      border-radius: 16px;
+      background: #FFFFFF;
+      display: inline-flex;
+      align-items: center;
+      color: #34343E;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      transition: .3s all ease;
+      &:focus {
+        transition: .3s all ease;
+        background-color: #1E8737;
+      }
+    }
+  }
+}
